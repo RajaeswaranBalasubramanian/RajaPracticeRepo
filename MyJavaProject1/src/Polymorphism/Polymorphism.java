@@ -4,12 +4,17 @@ public class Polymorphism {
 
   public static void main(String[] args) {
 		
-		Shape ref = new Circle1();
-		ref.area();
+	    Shape shape;
+	  
+		shape = new Circle1();
+		shape.area();
 		
 		
-		Shape ref1 = new Rectangle();
-		ref1.area();	
+		shape = new Rectangle();
+		shape.area();	
+		
+		Shape S = new Shape();
+		S.area();
 		
 	}
 
